@@ -1,51 +1,48 @@
-ndent": true,
-     "auto_match_enabled": true,
-     "bold_folder_labels": true,
-     "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
-     "detect_slow_plugins": false,
-     "draw_minimap_border": false,
-     "file_exclude_patterns":
-     [
-          "*.sln",
-          "*.suo",
-          "*.user",
-          ".gitkeep",
-          "*.DS_Store"
-     ],
-     "find_selected_text": true,
-     "flatland_square_tabs": false,
-     "folder_exclude_patterns":
-     [
-          ".svn",
-          ".git",
-          ".hg",
-          "CVS",
-          "log",
-          "bin",
-          "obj"
-     ],
-     "font_face": "Monaco",
-     "font_size": 13.0,
-     "highlight_active_indent_guide": true,
-     "highlight_line": true,
-     "hot_exit": false,
-     "ignored_packages":
-     [
-          "Vintage",
-          "JavaScript"
-     ],
-     "line_numbers": true,
-     "remember_open_files": true,
-     "scroll_past_end": true,
-     "shift_tab_unindent": true,
-     "smart_indent": true,
-     "tab_completion": false,
-     "tab_size": 4,
-     "translate_tabs_to_spaces": true,
-     "theme": "Flatland Dark.sublime-theme",
-     "translate_spaces_to_tabs": true,
-     "translate_tabs_to_spaces": false,
-     "trim_trailing_white_space_on_save": true,
-     "useTabStops": true,
-     "word_wrap": false
+{
+	"auto_indent": true,
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"detect_slow_plugins": false,
+	"draw_minimap_border": false,
+	"file_exclude_patterns": [
+		"*.sln",
+		"*.suo",
+		"*.user",
+		".gitkeep",
+		"*.DS_Store"
+	],
+	"find_selected_text": true,
+	"flatland_square_tabs": false,
+	"folder_exclude_patterns": [
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"log",
+		"bin",
+		"obj",
+		".idea"
+	],
+	"font_face": "Monaco",
+	"font_size": 16.0,
+	"highlight_active_indent_guide": true,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages": [
+		"Vintage"
+	],
+	"line_numbers": true,
+	"remember_open_files": true,
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"smart_indent": true,
+	"tab_completion": false,
+	"tab_size": 4,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_spaces_to_tabs": false,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"useTabStops": true,
+	"word_wrap": false
 }

@@ -1,4 +1,5 @@
-uper+/"], "command": "toggle_comment", "args": { "block": false } },
+[
+     { "keys": ["super+/"], "command": "toggle_comment", "args": { "block": false } },
      { "keys": ["super+alt+/"], "command": "toggle_comment", "args": { "block": true } },
      { "keys": ["super+d"], "command": "duplicate_line" },
      { "keys": ["ctrl+shift+j"], "command": "join_lines" },
