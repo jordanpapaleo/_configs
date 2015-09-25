@@ -1,0 +1,7 @@
+# Your snippets
+
+'*':
+    'Lorem Ipsum':
+        'prefix': 'lorem'
+        'body': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies nisl id mattis blandit. Nullam laoreet semper turpis, eget ultrices sapien laoreet nec. Sed auctor convallis turpis vel cursus. Sed semper rhoncus dui id lobortis. Cras dictum vulputate sapien, a volutpat velit condimentum quis.'
+
