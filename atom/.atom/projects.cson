@@ -1,0 +1,10 @@
+femr:
+  title: "femr"
+  paths: [
+    "/Users/jordanPapaleo/Projects/1Bios/femr-app"
+  ]
+"femr-app":
+  title: "femr-app"
+  paths: [
+    "/Users/jp/Projects/1Bios/femr-app"
+  ]

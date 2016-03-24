@@ -1,0 +1,14 @@
+# Your keymap
+#
+# You can find more information about keymaps in these guides:
+# * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+
+'atom-text-editor':
+  'cmd-alt-/': 'block-comment:toggle'
+  'shift-delete': 'editor:delete-line'
+  'cmd-shift-D': 'editor:duplicate-lines'
+  'cmd-shift-J': 'editor:join-lines'
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-shift-down': 'editor:move-line-down'
+  'cmd-shift-up': 'editor:move-line-up'

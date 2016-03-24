@@ -1,0 +1,40 @@
+{
+  "*": {
+    "autosave": {
+      "enabled": true
+    },
+    "core": {
+      "disabledPackages": [
+        "linter-js-standard",
+        "linter-jscs",
+        "linter"
+      ],
+      "themes": [
+        "atom-dark-ui",
+        "atom-dark-syntax"
+      ]
+    },
+    "editor": {
+      "backUpBeforeSaving": true,
+      "invisibles": {
+        "cr": false,
+        "eol": false,
+        "tab": true
+      },
+      "scrollPastEnd": true,
+      "showIndentGuide": true,
+      "showInvisibles": true,
+      "softWrap": true
+    },
+    "exception-reporting": {
+      "userId": "95f03b18-1d90-2422-dabe-fb94cdc58ddc"
+    },
+    "welcome": {
+      "showOnStartup": false
+    },
+    "whitespace": {
+      "ensureSingleTrailingNewline": true,
+      "removeTrailingWhitespace": true
+    }
+  }
+}

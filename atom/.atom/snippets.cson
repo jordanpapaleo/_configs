@@ -1,0 +1,148 @@
+# Your snippets
+
+'*':
+    'Lorem Ipsum':
+        'prefix': 'lorem'
+        'body': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies nisl id mattis blandit. Nullam laoreet semper turpis, eget ultrices sapien laoreet nec. Sed auctor convallis turpis vel cursus. Sed semper rhoncus dui id lobortis. Cras dictum vulputate sapien, a volutpat velit condimentum quis.'
+'*.js':
+    'React Component':
+        'prefix': 'reco'
+        'body': """
+        import React, { Component, PropTypes } from 'react'
+
+        export default class $1 extends Component {
+          static get displayName () {
+            return '$1'
+          }
+
+          static propTypes () {
+            return {}
+          }
+
+          constructor (props) {
+            super(props)
+          }
+
+          render () {
+            return (
+              <div>$1</div>
+            )
+          }
+        }
+
+        """
+    'console.log':
+        'prefix': 'log'
+        'body': 'console.log($1)'
+    'console.log stringify':
+        'prefix': 'jlog'
+        'body': 'console.log(JSON.stringify($1, null, 2))'
+    'console.warn':
+        'prefix': 'warn'
+        'body': 'console.warn($1)'
+    'console.warn stringify':
+        'prefix': 'jwarn'
+        'body': 'console.warn(JSON.stringify($1, null, 2))'
+    'console.info':
+        'prefix': 'info'
+        'body': 'console.info($1)'
+    'console.info stringify':
+        'prefix': 'jinfo'
+        'body': 'console.info(JSON.stringify($1, null, 2))'
+    'console.error':
+        'prefix': 'error'
+        'body': 'console.error($1)'
+    'console.info stringify':
+        'prefix': 'jerror'
+        'body': 'console.error(JSON.stringify($1, null, 2))'
+    'if':
+        'prefix': 'if'
+        'body': """
+        if ($1) {
+            $2
+        }
+        """
+    'for':
+        'prefix': 'for'
+        'body': """
+        for (let i = 0, j = $1.length; i < j; i++) {
+
+        }
+        """
+    'for of':
+        'prefix': 'forof'
+        'body': """
+        for ($1 of $2) {
+
+        }
+        """
+    'for in':
+        'prefix': 'forin'
+        'body': """
+        for (var $1 in $2) {
+          if ($2.hasOwnProperty($1)) {
+
+          }
+        }
+        """
+    'do while':
+        'prefix': 'do'
+        'body': """
+        do {
+
+        } while ($1)
+        """
+    'react create class':
+        'prefix': 'recc'
+        'body': """
+        const $1 = React.createClass({
+          render () {
+            return (
+
+            )
+          }
+        })
+
+        """
+    'react componentWillMount':
+        'prefix': 'cwm'
+        'body': """
+        componentWillMount () {
+          $1
+        }
+        """
+    'react componentDidMount':
+        'prefix': 'cdm'
+        'body': """
+        componentDidMount () {
+          $1
+        }
+        """
+    'react componentWillReceiveProps':
+        'prefix': 'cwrp'
+        'body': """
+        componentWillReceiveProps (props) {
+          $1
+        }
+        """
+    'react componentWillUnmount':
+        'prefix': 'cwu'
+        'body': """
+        componentWillUnmount () {
+          $1
+        }
+        """
+    'describe':
+        'prefix': 'des'
+        'body': """
+        describe('$1', () => {
+          $2
+        })
+        """
+    'it':
+        'prefix': 'it'
+        'body': """
+        it ('should $1', () => {
+          $2
+        })
+        """
