@@ -1,26 +1,31 @@
 "*":
-  editor:
-    fontSize: 16
-    fontFamily: "Monaco"
-    autoIndent: true
-    normalizeIndentOnxPaste: true
-    showLineNumbers: true
-    showIndentGuide: true
-    tabLength: 4
-    invisibles: {}
-  whitespace:
-    ensureSingleTrailingNewline: true
-    removeTrailingWhitespace: true
+  autosave:
+    enabled: true
   core:
+    disabledPackages: [
+      "linter-jscs"
+      "linter-js-standard"
+    ]
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
     ]
-  jsformat: {}
-  "one-light-ui": {}
+  editor:
+    invisibles:
+      cr: false
+      eol: false
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  emmet: {}
   "exception-reporting":
-    userId: "040e9752-7259-a1df-a747-770a1051498e"
+    userId: "156e8255-446b-cbd5-e658-41e3a0e9ec3e"
+  linter:
+    errorPanelHeight: 29
+  "linter-htmlhint": {}
+  tabs:
+    usePreviewTabs: true
+  "tree-view":
+    hideVcsIgnoredFiles: false
   welcome:
     showOnStartup: false
-  react: {}
-
