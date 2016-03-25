@@ -17,12 +17,6 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
-  emmet: {}
-  "exception-reporting":
-    userId: "156e8255-446b-cbd5-e658-41e3a0e9ec3e"
-  linter:
-    errorPanelHeight: 29
-  "linter-htmlhint": {}
   tabs:
     usePreviewTabs: true
   "tree-view":
