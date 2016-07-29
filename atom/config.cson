@@ -17,8 +17,26 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+  linter:
+    errorPanelHeight: 22
+  minimap: {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
   tabs:
     usePreviewTabs: true
+  "todo-show":
+    ignoreThesePaths: [
+      "**/node_modules/"
+      "**/vendor/"
+      "**/bower_components/"
+      "**/_bower"
+    ]
+    sortAscending: false
+    sortBy: "Type"
   "tree-view":
     hideVcsIgnoredFiles: false
   welcome:
