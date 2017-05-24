@@ -12,3 +12,5 @@
 'atom-workspace atom-text-editor:not([mini])':
   'cmd-shift-down': 'editor:move-line-down'
   'cmd-shift-up': 'editor:move-line-up'
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
+  'alt-tab': 'emmet:expand-abbreviation-with-tab'
