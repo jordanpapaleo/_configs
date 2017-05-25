@@ -22,3 +22,5 @@ apm install script
 apm install seti-ui
 apm install sort-lines
 apm install todo-show
+apm install Sublime-Style-Column-Selection
+apm install nuclide
