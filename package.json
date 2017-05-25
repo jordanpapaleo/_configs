@@ -1,0 +1,19 @@
+{
+  "name": "configs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "atom:i": "sh atom/apm-install.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanpapaleo/_configs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanpapaleo/_configs/issues"
+  },
+  "homepage": "https://github.com/jordanpapaleo/_configs#readme"
+}
